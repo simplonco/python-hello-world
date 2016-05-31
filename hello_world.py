@@ -4,4 +4,5 @@
 
 
 def hello(name=''):
-    return "Hello, World!"
+    name = name | "World"
+    return "Hello, %s!" % name

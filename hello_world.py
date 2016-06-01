@@ -3,5 +3,7 @@
 #
 
 
-def hello(name=''):
-    return
+  def hello(name=''):
+    if name:
+    return "Hello, %s!" % name
+     return "Hello, World!"

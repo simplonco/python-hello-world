@@ -1,7 +1,7 @@
 #
 # Skeleton file for the Python "Hello World" exercise.
 #
-
-
 def hello(name=''):
-    return
+    if name:
+        return "Hello, %s!" % name
+    return "Hello, World!"
